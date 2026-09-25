@@ -1,0 +1,11 @@
+[package]
+name = "exif-clean"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.82"
+description = "Privacy-first metadata stripper for JPEG (EXIF/XMP/Photoshop) and PNG (tEXt/iTXt/eXIf) — zero dependencies"
+license = "MIT"
+
+[profile.release]
+lto = true
+codegen-units = 1
